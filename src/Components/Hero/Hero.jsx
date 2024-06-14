@@ -2,9 +2,9 @@ import profile from "../../assets/profile.jpg";
 const Hero = () => {
   return (
     <>
-      <div id="home" className="text-white flex flex-col items-center mb-20">
+      <div id="home" className="text-white flex flex-col items-center mt-16 mb-16">
         <img src={profile} className="w-40 h-40 bg-white rounded-[40px]" alt="" />
-        <h1 className="text-5xl w-1/2 mb-4 text-center ">
+        <h1 className="text-5xl w-1/2 my-4 text-center ">
           <span className="bg-gradient-to-r from-[#FF512F] to-[#F09819] text-transparent bg-clip-text">
             I'm Ashiqur Rahman Shohan
           </span>

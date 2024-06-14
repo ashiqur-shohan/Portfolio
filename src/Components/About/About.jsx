@@ -2,38 +2,36 @@ import profile from "../../assets/profile.jpg";
 
 const About = () => {
   return (
-    <div id="about" className="text-white mx-28">
-      <h1 className="text-4xl font-semibold text-center mb-8 text-white">About</h1>
-      <div className="flex gap-12">
-        <div>
-          <img src={profile} alt="" />
+    <div id="about" className="text-white lg:mt-32 mx-8 lg:mx-28 lg:text-center">
+      <h1 className="text-3xl lg:text-6xl font-semibold text-left lg:text-center mb-4 lg:mb-16 text-white">
+        About
+      </h1>
+      <div className="flex lg:items-center text-left lg:justify-center lg:gap-12">
+        <div className="">
+          <img src={profile} alt="" className="w-60 h-60 hidden" />
         </div>
-        <div className="w-2/3 px-8 flex items-center">
+        <div className="lg:w-2/3 lg:px-8 flex items-center">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            perferendis eligendi quis pariatur dignissimos molestias ea labore
-            unde distinctio quae adipisci quos nobis libero enim aliquid,
-            provident odit impedit hic maxime rem. Iure inventore ipsam
-            voluptatum amet suscipit. <br />
-            Eum facilis eos nobis eaque voluptatem asperiores vitae, quidem
-            dolore nostrum suscipit?
+            I am ashiqur rahman shohan. Currently, Undergradate student at
+            University of chiitagong. My Honours Subject is Statistics. I am
+            very much enthusiastic about technoloygy.
           </p>
         </div>
       </div>
-      <div className="flex w-full place-content-around my-16 ">
+      <div className="flex w-full lg:place-content-around my-12 lg:my-16 ">
         <div className="w-1/3 border-r-2 text-center transition  hover:scale-105">
-          <h1 className="text-5xl">10+</h1>
-          <p className="text-xl">Experience</p>
+          <h1 className="text-2xl lg:text-5xl">10+</h1>
+          <p className="text-md lg:text-xl">Experience</p>
         </div>
         <hr />
         <div className="w-1/3 border-r-2 text-center transition  hover:scale-105">
-          <h1 className="text-5xl ">3</h1>
-          <p className="text-xl">Projects Completed</p>
+          <h1 className="text-2xl lg:text-5xl">3</h1>
+          <p className="text-md lg:text-xl">Projects </p>
         </div>
         <hr />
         <div className="w-1/3 text-center transition  hover:scale-105">
-          <h1 className="text-5xl">2+</h1>
-          <p className="text-xl">Experience</p>
+          <h1 className="text-2xl lg:text-5xl">2+</h1>
+          <p className="text-md lg:text-xl">Experience</p>
         </div>
       </div>
     </div>

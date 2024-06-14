@@ -1,14 +1,25 @@
 import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-
+import menu_open from "../../assets/menu_open.svg";
+import menu_close from "../../assets/menu_close.svg";
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
 
   return (
-    <div className="flex justify-between text-white mx-12 my-4 items-center">
-      <h1 className="text-4xl font-bold">Portfolio.</h1>
+    <div className="flex justify-between  text-white mx-12 my-4 items-center">
+      <h1 className="text-2xl lg:text-4xl font-bold">Portfolio.</h1>
+      <img
+        src={menu_open}
+        alt=""
+        className="absolute lg:hidden right-4 w-6 h-6"
+      />
+      <img
+        src={menu_close}
+        alt=""
+        className="absolute hidden right-4 w-6 h-6"
+      />
       <div>
-        <ul className="flex gap-4 font-semibold text-lg">
+        <ul className="flex flex-col md:flex-row absolute md:static text-center bg-black lg:bg-transparent  w-full left-0 top-16 gap-4 font-semibold text-lg">
           <li>
             <AnchorLink className="anchor-link" offset={50} href="#home">
               <p
@@ -81,7 +92,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <h3 className="px-4 py-2 font-semibold rounded-xl cursor-pointer bg-gradient-to-r from-[#FF512F] to-[#F09819] transition  hover:scale-105">
+      <h3 className="px-4 py-2 font-semibold rounded-xl hidden md:block lg:block cursor-pointer bg-gradient-to-r from-[#FF512F] to-[#F09819] transition  hover:scale-105">
         Conect with Me
       </h3>
     </div>
