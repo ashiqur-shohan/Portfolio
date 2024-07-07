@@ -5,6 +5,7 @@ import Hero from "./Components/Hero/Hero";
 import MyWork from "./Components/MyWork/MyWork";
 import Navbar from "./Components/Navbar/Navbar";
 import Services from "./Components/Services/Services";
+import TechStack from "./Components/TechStack/TechStack";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Hero />
       <About/>
       <Services/>
+      <TechStack/>
       <MyWork/>
       <Contact/>
       <Footer/>

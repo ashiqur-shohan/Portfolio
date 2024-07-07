@@ -1,41 +1,33 @@
-import project1_img from '../assets/project_1.svg'
-import project2_img from '../assets/project_2.svg'
-import project3_img from '../assets/project_3.svg'
-import project4_img from '../assets/project_4.svg'
-import project5_img from '../assets/project_5.svg'
-import project6_img from '../assets/project_6.svg'
-
+import bytejobs from './bytejobs.png'
+import learn_match from "./learn_match.png";
+import Check_Inn from "./Check_Inn.png";
 const mywork_data = [
-    {
-        w_no:1,
-        w_name:"Web design",
-        w_img:project1_img
-    },
-    {
-        w_no:2,
-        w_name:"Web design",
-        w_img:project2_img
-    },
-    {
-        w_no:3,
-        w_name:"Web design",
-        w_img:project3_img
-    },
-    {
-        w_no:4,
-        w_name:"Web design",
-        w_img:project4_img
-    },
-    {
-        w_no:5,
-        w_name:"Web design",
-        w_img:project5_img
-    },
-    {
-        w_no:6,
-        w_name:"Web design",
-        w_img:project6_img
-    },
-]
+  {
+    w_no: 1,
+    w_name: "ByteJobs (Currently Working)",
+    w_img: bytejobs,
+    live_link: "https://byte-jobs.vercel.app/",
+    frontend_code: "https://github.com/ashiqur-shohan/byteJobs-frontend",
+    backend_code: "https://github.com/ashiqur-shohan/bytejobs---backend",
+    skills: ["react", "django", "sqllite"],
+  },
+  {
+    w_no: 2,
+    w_name: "Learn Match",
+    w_img: learn_match,
+    live_link: "https://learn-match.netlify.app/",
+    frontend_code: "https://github.com/ashiqur-shohan/Learn-Match",
+    backend_code: "https://github.com/ashiqur-shohan/Learn-Match---API",
+    skills: ["drf", "django", "js"],
+  },
+  {
+    w_no: 3,
+    w_name: "Check Inn",
+    w_img: Check_Inn,
+    live_link: "https://check-inn-68oz.onrender.com/",
+    source: "https://github.com/ashiqur-shohan/Check_Inn_Backend",
+    skills: ["mvt", "django", "js"],
+  },
+];
  
 export default mywork_data;
