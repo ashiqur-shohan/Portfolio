@@ -2,7 +2,7 @@ import mywork_data from "../../assets/mywork_data";
 
 const MyWork = () => {
   return (
-    <div id="work" className="text-white lg:mt-32 mb-8 mx-8 lg:mx-28">
+    <div id="project" className="text-white lg:mt-32 mb-8 mx-8 lg:mx-28">
       <h1 className="lg:text-center text-3xl lg:text-6xl font-semibold mb-8 lg:mb-16">
         My Project
       </h1>
@@ -16,7 +16,11 @@ const MyWork = () => {
                 </a>
               </figure>
               <div className="mt-4">
-                <h2 className="lg:text-bold text-sm lg:text-xl text-center">{work.w_name}</h2>
+                <a href={work.live_link} target="_blank">
+                  <h2 className="lg:text-bold text-sm lg:text-xl text-center">
+                    {work.w_name}
+                  </h2>
+                </a>
                 <div className="lg:ml-4 my-4 ">
                   {work.source ? (
                     <a

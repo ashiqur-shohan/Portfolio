@@ -2,7 +2,7 @@ import skills from "../../assets/skills.js";
 
 const TechStack = () => {
   return (
-    <div className="text-white lg:mt-32 mb-8 mx-8 lg:mx-28">
+    <div id='tech' className="text-white lg:mt-32 mb-8 mx-8 lg:mx-28">
       <h1 className="lg:text-center text-3xl lg:text-6xl font-semibold mb-8 lg:mb-16">
         Tech Stack
       </h1>
