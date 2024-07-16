@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between text-white lg:mx-12 px-8 py-2  my-4 bg-gray-600 items-center sticky top-0 z-10 rounded-md ">
+    <div className="flex justify-between text-white px-8 py-2 bg-gray-600 items-center sticky top-0 z-10 rounded-md ">
       <h1 className="text-2xl lg:text-4xl font-bold">Portfolio.</h1>
       <img
         src={isOpen ? menu_close : menu_open}

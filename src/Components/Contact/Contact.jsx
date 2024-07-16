@@ -32,8 +32,8 @@ const Contact = () => {
 
 
   return (
-    <div id="contact" className="mx-8 lg:mx-28  text-white lg:mt-32 mb-12">
-      <h1 className="lg:text-center text-3xl lg:text-6xl font-semibold mb-8 lg:mb-16">
+    <div id="contact" className="mx-8 lg:mx-28  text-white mt-16 lg:mt-24">
+      <h1 className="lg:text-center text-3xl lg:text-6xl font-semibold mb-8 lg:mb-12">
         Get In Touch
       </h1>
       <div className="flex flex-col lg:flex-row gap-8">

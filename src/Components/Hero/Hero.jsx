@@ -1,16 +1,12 @@
 import profile from "../../assets/profile.jpg";
-import linkedin from "../../assets/linkedin.png";
-import github from "../../assets/github.png";
-import email from "../../assets/email.png";
-import facebook from "../../assets/facebook.png";
 
 const Hero = () => {
-  const logo = [linkedin,github,email,facebook]
+  
   return (
     <>
       <div
         id="home"
-        className="text-white flex flex-col items-center mt-16 mb-16"
+        className="text-white flex flex-col items-center mt-16"
       >
         <img
           src={profile}

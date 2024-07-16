@@ -2,9 +2,9 @@ const About = () => {
   return (
     <div
       id="about"
-      className="text-white lg:mt-20 mx-8 lg:mx-28 lg:text-center"
+      className="text-white mt-16 lg:mt-24 mx-8 lg:mx-28 lg:text-center"
     >
-      <h1 className="text-3xl lg:text-6xl font-semibold text-left lg:text-center mb-4 lg:mb-8 text-white">
+      <h1 className="text-3xl lg:text-6xl font-semibold text-left lg:text-center text-white mb-8 lg:mb-12">
         About
       </h1>
       <div className="flex lg:items-center text-left lg:justify-center lg:gap-12">
@@ -13,18 +13,18 @@ const About = () => {
             "Hello! I'm Ashiqur Rahman Shohan, a final-year Statistics student
             at the University of Chittagong with a passion for web development
             and technology. My journey in the tech world is driven by a love for
-            building things and an insatiable curiosity for learning. <br /> My skill
-            set spans across HTML, CSS, Tailwind, JavaScript, DaisyUI, Python,
-            C, and C++, complemented by a solid foundation in algorithms and
-            data structures. I'm currently expanding my horizons by delving into
-            React, having already completed a project using this cutting-edge
-            framework. <br /> While web development is my current focus, my academic
-            background in Statistics has kindled an interest in data science. I
-            see this as a natural progression, blending my analytical skills
-            with my tech expertise. <br /> What sets me apart is my self-driven
-            learning approach. I've acquired most of my skills through
-            self-study and targeted courses, demonstrating my ability to adapt
-            and grow in this ever-evolving field. I'm excited about the
+            building things and an insatiable curiosity for learning. <br /> My
+            skill set spans across HTML, CSS, Tailwind, JavaScript, DaisyUI,
+            Python, C, and C++, complemented by a solid foundation in algorithms
+            and data structures. I'm currently expanding my horizons by delving
+            into React, having already completed a project using this
+            cutting-edge framework. <br /> While web development is my current
+            focus, my academic background in Statistics has kindled an interest
+            in data science. I see this as a natural progression, blending my
+            analytical skills with my tech expertise. <br /> What sets me apart
+            is my self-driven learning approach. I've acquired most of my skills
+            through self-study and targeted courses, demonstrating my ability to
+            adapt and grow in this ever-evolving field. I'm excited about the
             possibilities that lie at the intersection of web development and
             data science. As I continue to learn and create, I look forward to
             contributing innovative solutions to real-world problems."
