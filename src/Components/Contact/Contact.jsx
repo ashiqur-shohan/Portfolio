@@ -61,21 +61,22 @@ const Contact = () => {
         </div>
         {/* right section */}
         <form onSubmit={onSubmit} className="lg:w-1/2">
-          <label>Your Name</label>
+          <h2 className="text-center text-xl font-bold border-b border-orange-400 lg:mx-40 mb-4">Email Me</h2>
+          {/* <label>Your Name</label> */}
           <input
             type="text"
             placeholder="Your Name"
             className="bg-gray-600 rounded-sm p-2 w-full h-8 mb-4"
             name="name"
           />
-          <label>Your Email</label>
+          {/* <label>Your Email</label> */}
           <input
             type="email"
             placeholder="example@gmail.com"
             className="bg-gray-600 rounded-sm p-2 w-full h-8 mb-4"
             name="email"
           />
-          <label>Your Message</label>
+          {/* <label>Your Message</label> */}
           <textarea
             type="text"
             placeholder="Your Message Here."

@@ -22,7 +22,10 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between text-white px-8 py-2 bg-gray-600 items-center sticky top-0 z-10 rounded-md ">
-      <h1 className="text-2xl lg:text-4xl font-bold">Portfolio.</h1>
+      <h1 className="text-2xl lg:text-4xl font-bold cursor-pointer">
+        
+        <a href="./"> Portfolio. </a>
+      </h1>
       <img
         src={isOpen ? menu_close : menu_open}
         alt=""
@@ -33,7 +36,7 @@ const Navbar = () => {
       <div className="">
         <ul
           ref={ulRef}
-          className=" hidden lg:flex flex-col md:flex-row absolute md:static text-center bg-black lg:bg-transparent transition-all duration-500 ease-out w-full left-0 top-8 gap-4 font-semibold text-lg"
+          className=" hidden lg:flex flex-col md:flex-row absolute md:static text-center bg-black lg:bg-transparent transition-all duration-500 ease-out w-full left-0 top-8 gap-8 font-semibold text-lg"
         >
           {navList.map((nav, index) => {
             return (

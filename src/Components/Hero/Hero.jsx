@@ -4,18 +4,16 @@ const Hero = () => {
   
   return (
     <>
-      <div
-        id="home"
-        className="text-white flex flex-col items-center mt-16"
-      >
+      <div id="home" className="text-white flex flex-col items-center mt-16">
         <img
           src={profile}
           className="w-40 h-40 bg-white rounded-[40px]"
           alt=""
         />
         <h1 className="text-2xl lg:text-5xl lg:w-1/2 my-4 text-center ">
+          Hi,I'm{" "}
           <span className="bg-gradient-to-r from-[#FF512F] to-[#F09819] text-transparent bg-clip-text">
-            I'm Ashiqur Rahman Shohan
+            Ashiqur Rahman Shohan
           </span>
           , Full-Stack Developer.
         </h1>

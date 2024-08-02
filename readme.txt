@@ -1,1 +1,2 @@
-react-anchor-link-smooth-scroll
+* improve project section. card type na diye scroll er sathe annimation hbe dekhte aro shundor lgbe. filter hbe category diye. 
+like website, front end, python project, or any project which i have done.
