@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
@@ -21,10 +22,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between text-white px-8 py-2 bg-gray-600 items-center sticky top-0 z-10 rounded-md ">
-      <h1 className="text-2xl lg:text-4xl font-bold cursor-pointer">
-        
-        <a href="./"> Portfolio. </a>
+    <div className="flex text-gray-400 justify-between  px-8 py-2 bg-gray-900 items-center sticky top-0 z-10 rounded-md ">
+      <h1 className="text-2xl lg:text-4xl font-bold cursor-pointer hover:text-gray-200">
+        <motion.a  href="./">
+          {" "}
+          Portfolio.{" "}
+        </motion.a>
       </h1>
       <img
         src={isOpen ? menu_close : menu_open}
@@ -46,27 +49,28 @@ const Navbar = () => {
                   offset={50}
                   href={`#${nav.toLowerCase()}`}
                 >
-                  <p
+                  <motion.p
+                    whileTap={{ scale: 0.9 }}
                     className={
                       menu === `${nav}`
-                        ? "text-yellow-500 underline decoration-yellow-500 underline-offset-4"
-                        : "hover:underline cursor-pointer"
+                        ? "text-purple-500  decoration-purple-500 underline-offset-4"
+                        : "hover:text-gray-200 cursor-pointer"
                     }
                     onClick={() => setMenu(nav)}
                   >
                     {nav}
-                  </p>
+                  </motion.p>
                 </AnchorLink>
               </li>
             );
           })}
         </ul>
       </div>
-      <a target="_blank" href="https://www.linkedin.com/in/ashiqur-shohan/">
+      {/* <a target="_blank" href="https://www.linkedin.com/in/ashiqur-shohan/">
         <h3 className="px-4 py-2 font-semibold rounded-xl hidden md:block lg:block cursor-pointer bg-gradient-to-r from-[#FF512F] to-[#F09819] transition  hover:scale-105">
           Conect with Me
         </h3>
-      </a>
+      </a> */}
     </div>
   );
 };
